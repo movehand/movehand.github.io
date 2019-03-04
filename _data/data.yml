@@ -178,31 +178,25 @@ skills:
         level: 95%
 
       - name: Javascript
-        level: 80%
+        level: 75%
 
       - name: Java
-        level: 80%
+        level: 75%
 
       - name: Python
-        level: 70%
+        level: 60%
 
       - name: React
         level: 90%
 
       - name: NodeJS
-        level: 90%
-
-      - name: Matlab
-        level: 85%
-
-      - name: Unix
-        level: 80%
-
-      - name: Git
-        level: 80%
+        level: 70%
 
       - name: OpenCV
-        level: 80%
+        level: 65%
+
+      - name: Matlab
+        level: 40%
 
 
 footer: >
