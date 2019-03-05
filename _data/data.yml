@@ -116,7 +116,7 @@ projects:
         enhance the resolution of low quality images.
         The most recognized project among all unofficial implementations,
         gets over 300 stars and 90 forks on Github.
-        Utilized Python, OpenCV, and Git."
+        Utilized OpenCV and version controlling with Git."
 
       - title: Allbento
         link: "assets/images/allbento.png"
@@ -128,12 +128,14 @@ projects:
         implemented the user authentication feature using Passport.js.
         Utilized Webpack for hot reloading at developing stage and as the
         bundling tool to generate the production code.
-        Deployed the web and API servers on AWS and configuring them with Nginx."
+        Deployed the web and API servers on AWS and configuring them with Nginx.
+        Utilized Google APIs, ElasticSearch, and Git as well."
 
       - title: Hoscaper - A Horror Hospital Escape Game
         link: "https://www.youtube.com/watch?v=RhFGuW9MAYI"
         tagline: "Developed a VR horror game using Unity3D,
-        where users can take commands using their own voice."
+        where users can take commands using their own voice.
+        Programmed in C#."
 
       - title: Eaterate
         link: "assets/pdf/nmlab_report.pdf"
@@ -145,20 +147,21 @@ projects:
         link: "assets/pdf/TeddyCamReport.pdf"
         tagline: "Detected human in-air sketching with webcam and generates the corresponding polygon.
         Implemented the algorithm that can transformed a single
-        polygon into a 3D mesh model within 3 seconds."
+        polygon into a 3D mesh model within 3 seconds.
+        Programmed in C# using Unity3D."
 
       - title: Mini RPG
         link: "assets/pdf/oop_report.pdf"
         tagline: "Developed a complete game framework featuring NPCs with storyline,
         dialogs, fighting scene and item system.
         Implemented a backend database to store maps and NPCs to avoid recompilation
-        when modifying the game."
+        when modifying the game. Programmed in Java and version controlling with Git."
 
       - title: Stereoscopic 3D Image by Single Image
         link: "assets/pdf/DIP_FinalReport.pdf"
         tagline: "Developed algorithms of color segmentation,
         semantic region detection and vanishing point detection to construct
-        a 3D image from a single plain image."
+        a 3D image from a single plain image. Programmed in C."
 
 publications:
     title: Publications
