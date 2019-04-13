@@ -41,7 +41,7 @@ sidebar:
 career-profile:
     title: CV Download
     summary: |
-      You can [download my CV here](assets/pdf/JingYeuChen_CV_190303_EN.pdf).
+      You can [download my CV here](assets/pdf/JingYeuChen_CV_190413_EN.pdf).
 
 education:
     - degree: MSc in Computer Science and Information Engineering
@@ -85,14 +85,12 @@ experiences:
       time: 2017 - Present
       company: Cino Group, New Taipei City
       details: |
-          - Developed algorithms to decode highly distorted,
-          high density and low contrast 1D/2D barcodes for barcode scanners.
-          - Improved usability and made the scanner snappy by redesigning the decoding procedure.
-          - Refactored the decoding system into a dynamic library and designed the interface of which
-          for more maintainability.
-          - Implemented the debugging tool to eliminate the bugs in the original
-          prototyped decoding system, making it producible.
-          - Established the build / testing environments as well as the version controlling system.
+          - Implemented image processing algorithms to decode highly distorted, high density and low contrast 1D/2D barcodes.
+          - Reduced decoding time of high density barcodes by 75% by redesigning the system flow, leading to a 50% reduction in total decoding time.
+          - Refactored the decode system to a dynamic library and designed the APIs for better maintainability.
+          - Implemented a data visualization tool to increase the stability of the original prototyped decoding system.
+          - Established the build / testing environments as well as the version controlling system for faster delivery.
+          - Used ARM NEON instructions to speed up the step of image preprocessing.
           - Leveraged knowledge in image processing, memory debugger, ARM Cortex-A9 architecture,
           and Git, programmed in C, utilized Matlab and OpenCV for algorithm prototyping.
 
@@ -115,7 +113,7 @@ projects:
         Utilized the concept of hash bucketing and machine learning to
         enhance the resolution of low quality images.
         The most recognized project among all unofficial implementations,
-        gets over 300 stars and 90 forks on Github.
+        gets over 300 stars and 100 forks on Github.
         Utilized OpenCV and version controlling with Git."
 
       - title: Allbento
