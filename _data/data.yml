@@ -4,27 +4,27 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: James Chen
+  tagline: Software Engineering Manager
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: pp31630@gmail.com
+  phone: 
+  timezone: # America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  website: # https://example.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: # alandoe
+  xing: # alandoe
+  github: movehand # jekyll
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  twitter: '@jekyllrb'
+  twitter: #'@jekyllrb'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,250 +36,153 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Chinese
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: English
+      level: Fluent
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Movies
       link:
 
-
-    - item: Snowboarding
+    - item: Traveling
       link:
-
-
-    - item: Cooking
-      link:
-
 
 career-profile:
-  title: Career Profile
+  title: CV Download
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    You can [download my CV here](assets/pdf/JingYeuChen_CV_250210.pdf).
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Master of Computer Science and Information Engineering
+    university: National Taiwan University
+    time: 2014 - 2016
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      Research in Near Field Magnetic Induction Communication and Visible Light Communications.
+
+      Master's Thesis: Induction Communication System using Hall Effect Sensors
+
+        - Implemented the very first Near Field Magnetic Induction Communication system
+        that utilized the Hall sensors by taking advantages of its feature such as small
+        volume, high sensitivity and high operation frequency.
+        - Leveraged knowledge in hardware prototyping with Arduino UNO and Mega 2560,
+        programmed in C, communication protocol prototyping with Matlab, and data parsing with Python.
+
+      Coursework:
+
+        - Digital Speech Processing
+        - Computer Graphics
+        - Natural Language Processing
+        - Game Programming
+
+  - degree: Bachelor of Computer Science and Information Engineering
+    university: National Taiwan University
+    time: 2010 - 2014
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Coursework:
+
+        - Data Structures & Algorithms
+        - Computer Arch
+        - Computer Networks
+        - Object-oriented Software Design
+        - Digital Image Processing
+        - Database Systems
+        - Web Programming and Applications
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Software Engineering Manager
+    time: 2020 - Present
+    company: Cino Group, New Taipei City
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Recruited, managed, and mentored an 8-person R&D and DQA team, specializing in computer vision and embedded Linux, overseeing the entire software development lifecycle.
+        - Led the development of a next-generation barcode decoding engine, significantly improving decoding rates for complex barcodes by 294% and for general barcodes by 52%.
+        - Reduced 1D barcode decoding time by 95%, from 60ms to 3ms, and 2D barcode decoding time by 80%, from 100ms to 20ms, while simultaneously decreasing the decoding library size by 37%.
+        - Leveraged data augmentation and a large image database for robust system stability testing.
+        - Optimized image processing pipelines with SIMD acceleration across ARM NEON, x86 SSE2, and MIPS architectures, achieving platform-specific speedups up to 6.22x.
+        - Directed the development of an Auto-Focusing algorithm for a key station on the assembly line, resulting in a 70% reduction in cycle time.
+        - Spearheaded the launch of 15+ diverse barcode scanning product lines, employing a modular software architecture to effectively accommodate diverse hardware components.
+        - Led the design and development of several key features enabling real-time camera control and synchronization through integrated SOC, CMOS sensor, and MCU functionality.
+        - Led cross-functional efforts, collaborating with 4 PMs, and 2 Technical Support Engineers to address real-world decoding challenges and ensure robust product performance.
+        - Mentored the R&D and DQA teams, achieving the highest average performance rating across the company.
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - role: Software Architect
+    time: 2017 - 2020
+    company: Cino Group, New Taipei City
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+        - Developed 1D and 2D barcode decoding and detection systems, leveraging Python/OpenCV for rapid prototyping and C/C++ for efficient execution on SoCs.
+        - Established a new software department and led the successful transfer of technology from an overseas outsourced team.
+        - Implemented departmental standards for recruitment, release/debug, and version control.
+        - Created an image debugging tool that remains the standard development and debugging tool for the image processing team.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+  - role: Teaching Assistant, Wireless Networking
+    time: Spring 2016
+    company: National Taiwan University
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: RAISR Python
+    link: "https://www.github.com/movehand/raisr"
+    tagline: "Implemented Google's RAISR (Rapid and Accurate Image Super-Resolution) in Python. 
+        Utilized hash bucketing and machine learning to enhance the resolution of low-quality images. 
+        This project, the most recognized among unofficial implementations, has received over 500 stars and 150 forks on GitHub."
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  - title: "MouseVLC: Visible Light Communications using Mouse Sensors"
+    link: "https://ieeexplore.ieee.org/document/7059685"
+    authors: C.-L. Chan, J.-Y. Chen, and H.-M. Tsai
+    conference: IEEE International Conference on Internet of Things (iThings), September 2014
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: C
+    level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: Python
+    level: 70%
 
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
+  - name: OpenCV
     level: 60%
+
+  - name: Emdedded Linux
+    level: 80%
+
+  - name: Image Processing
+    level: 90%
+
+  - name: Camera Control
+    level: 75%
+  
+  - name: SIMD Acceleration
+    level: 80%
+
+  - name: Memory Management
+    level: 80%
+
+  - name: Git
+    level: 70%
+
+  - name: Gitlab
+    level: 45%
+
+  - name: CMake
+    level: 70%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
